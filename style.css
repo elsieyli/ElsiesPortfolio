@@ -1,0 +1,18 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0dfdf;
+}
+
+#hello-container {
+    text-align: center;
+}
+
+#hello-message {
+    color: #a33d3d;
+    font-size: 3rem;
+}
