@@ -1,7 +1,7 @@
 import React from 'react';
 import {motion} from'framer-motion';
 import {styles} from '../styles';
-//import {ComputerCanvas} from './canvas';
+import {ComputersCanvas} from './canvas';
 
 const Hero = () => {
   return (
@@ -14,11 +14,13 @@ const Hero = () => {
          <div>
             <h1 className={`${styles.heroHeadText} text-white`}>Hi, I'm <span className="text-[#915eff]">Elsie</span></h1>
             <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I'm a versatile software developer in full-stack development, mastering multiple languages, frameworks, and agile methodologies.
+            I'm a versatile software developer <br className="sm:"/> in full-stack development, <br className="sm:"/> mastering multiple languages, <br className="sm:"/> frameworks, and agile methodologies.
 
             </p>
          </div>
       </div>
+
+      <ComputersCanvas />
     </section>
   )
 }
